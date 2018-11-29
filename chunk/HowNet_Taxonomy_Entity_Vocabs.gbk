@@ -1,0 +1,23 @@
+#lights|光
+昡
+DEF {lights|光:{ResultFrom|缘于:cause={celestial|天体},relevant={~}}}
+Ｘ光
+DEF {lights|光:{diagnose|诊察:domain={medical|医},instrument={~}}}
+Ｘ射线
+DEF {lights|光:{diagnose|诊察:domain={medical|医},instrument={~}}}
+
+#symbol|符号
+ASCII
+DEF {symbol|符号:RelateTo={computer|电脑}{software|软件}}
+～
+DEF {symbol|符号:RelateTo={text|语文}}
+＆
+DEF {symbol|符号:RelateTo={text|语文}}
+
+#institution|机构
+理事会
+DEF {institution|机构:{manage|管理:agent={~}}}
+全国人民代表大会
+DEF {institution|机构:belong="China|中国",domain={politics|政},{forming|形成:PatientProduct={law|律法},agent={~}}}
+全国政协
+DEF {institution|机构:belong="China|中国",domain={politics|政},modifier={ProperName|专},{manage|管理:agent={~},patient={place|地方:PlaceSect={country|国家},domain={politics|政}}}}

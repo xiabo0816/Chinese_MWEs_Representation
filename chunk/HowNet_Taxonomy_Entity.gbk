@@ -1,0 +1,8 @@
+- {entity|实体}  
+  ├ {thing|万物} {entity|实体:{ExistAppear|存现:existent={~}}} 
+  │ ├ {physical|物质} {thing|万物:HostOf={Appearance|外观},{perception|感知:content={~}}} 
+  │ │ ├ {animate|生物} {physical|物质:HostOf={Age|年龄},{alive|活着:experiencer={~}},{die|死:experiencer={~}},{metabolize|代谢:experiencer={~}},{reproduce|生殖:PatientProduct={~},agent={~}}} 
+  │ │ │ ├ {AnimalHuman|动物} {animate|生物:HostOf={Sex|性别},{AlterLocation|变空间位置:agent={~}},{StateMental|精神状态:experiencer={~}}} 
+
+  └ {component|部分} {entity|实体:modifier={other|另},whole={entity|实体:{contain|包含:OfPart={~}}}} 
+    ├ {part|部件} {component|部分:modifier={necessary|必要}{other|另},whole={entity|实体:{contain|包含:OfPart={~}}}} 
